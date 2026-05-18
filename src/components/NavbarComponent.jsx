@@ -40,8 +40,8 @@ export default function NavComponent() {
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-        <NavbarLink href="#" active>
-          Home
+        <NavbarLink href="/product" active>
+          Product
         </NavbarLink>
         <NavbarLink href="/blog">blog</NavbarLink>
         <NavbarLink href="#">About</NavbarLink>
