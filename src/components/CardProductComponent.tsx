@@ -2,7 +2,8 @@ import React from 'react'
 import { productType } from '@/lib/product'
 import { Card } from "flowbite-react";
 import Image from 'next/image';
-export default function CardProductComponent({image, description,price}) {
+
+export default function CardProductComponent({id,image, title,price}:productType) {
   
   return (
     <Card
@@ -12,7 +13,7 @@ export default function CardProductComponent({image, description,price}) {
     >
       <a href="#">
         <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-          {description}
+          {title}
         </h5>
       </a>
       <div className="mb-5 mt-2.5 flex items-center">

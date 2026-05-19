@@ -44,7 +44,7 @@ export default function NavComponent() {
           Product
         </NavbarLink>
         <NavbarLink href="/blog">blog</NavbarLink>
-        <NavbarLink href="#">About</NavbarLink>
+        <NavbarLink href="/blogNew">BlogNew</NavbarLink>
         <NavbarLink href="#">Pricing</NavbarLink>
         <NavbarLink href="#">Contact</NavbarLink>
       </NavbarCollapse>
